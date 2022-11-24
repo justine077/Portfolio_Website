@@ -33,18 +33,18 @@ function Contact() {
     <div style={{marginTop:'5.5rem'}} >
         <section className="bg-light dark:bg-gray-900">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-                <div data-aos='fade-up'>
+                <div data-aos="fade-right"data-aos-delay="800" data-aos-duration="500">
                     <p className='text-4xl font-bold inline border-b-4 border-[#eb5424] '>Contact Me</p>
                
             </div>
         <div className="lg:flex lg:items-center lg:-mx-6">
     <div className="lg:w-1/2 lg:mx-6 ">
         <div className="mt-6 space-y-8">
-            <img data-aos="zoom-in" className='w-100mx-auto mt-5' src={Cont2} alt="HTML icon" />
+            <img data-aos="zoom-in" data-aos-delay="900" data-aos-duration="500" className='w-100mx-auto mt-5' src={Cont2} alt="HTML icon" />
                 </div>
                     </div>
                 <div className="mt-8 lg:w-1/2 lg:mx-6">
-            <div data-aos="fade-left"className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#0a192f] rounded-lg shadow-2xl dark:bg-gray-1000 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+            <div data-aos="fade-left"data-aos-delay="1300" data-aos-duration="500"className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#0a192f] rounded-lg shadow-2xl dark:bg-gray-1000 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
         <h1 className="text-lg font-medium text-white capitalize">Send Me an Email</h1>
     <form className="mt-6" ref={form} onSubmit={sendEmail}>
         <div className="flex-1">
