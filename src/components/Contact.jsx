@@ -31,10 +31,10 @@ function Contact() {
   
   return (
     <div style={{marginTop:'5.5rem'}} >
-        <section className="bg-light dark:bg-gray-900">
+        <section className="bg-[#2F303A]">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div data-aos="fade-right"data-aos-delay="800" data-aos-duration="500">
-                    <p className='text-4xl font-bold inline border-b-4 border-[#eb5424] '>Contact Me</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#eb5424] text-white'>Contact Me</p>
                
             </div>
         <div className="lg:flex lg:items-center lg:-mx-6">
@@ -44,7 +44,7 @@ function Contact() {
                 </div>
                     </div>
                 <div className="mt-8 lg:w-1/2 lg:mx-6">
-            <div data-aos="fade-left"data-aos-delay="1300" data-aos-duration="500"className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#0a192f] rounded-lg shadow-2xl dark:bg-gray-1000 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+            <div data-aos="fade-left"data-aos-delay="1300" data-aos-duration="500"className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#202027] rounded-lg shadow-2xl dark:bg-gray-1000 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
         <h1 className="text-lg font-medium text-white capitalize">Send Me an Email</h1>
     <form className="mt-6" ref={form} onSubmit={sendEmail}>
         <div className="flex-1">

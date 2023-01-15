@@ -42,7 +42,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar fixed-top d-flex justify-content-between'>
+      <nav className='navbar fixed-top d-flex justify-content-between max-w-full'>
         <a href='/' onClick={closeMobileMenu} className="text-decoration-none">
             <h5 className='mx-3 text-white text-decoration-none text-center'>Justine Villanueva</h5>
         </a>
@@ -77,13 +77,13 @@ function Navbar() {
             </a>
           </li>
 
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <a href='#Resume'
               className='nav-links hover:scale-110 duration-500'
             >
               RESUME
             </a>
-          </li>
+          </li> */}
 
           <li className='nav-item'>
             <a href='#About'

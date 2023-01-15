@@ -5,7 +5,7 @@ import Skills from '../Skills'
 import About from '../About'
 import Contact from '../Contact'
 import Footer from '../Footer'
-import Resume from '../Resume'
+// import Resume from '../Resume'
 import '../../App.css'
 export default function Homepage() {
   return (
@@ -13,7 +13,7 @@ export default function Homepage() {
          <Home/>
          <Portfolio/>
          <Skills/>
-          <Resume/>
+          {/* <Resume/> */}
           <About/>
           <Contact/>
          <Footer/>
